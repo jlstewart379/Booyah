@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B83363A118A752B3003C9594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363A018A752B3003C9594 /* Foundation.framework */; };
+		B83363A318A752B3003C9594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363A218A752B3003C9594 /* CoreGraphics.framework */; };
+		B83363A518A752B3003C9594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363A418A752B3003C9594 /* UIKit.framework */; };
+		B83363AB18A752B3003C9594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83363A918A752B3003C9594 /* InfoPlist.strings */; };
+		B83363AD18A752B3003C9594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83363AC18A752B3003C9594 /* main.m */; };
+		B83363B118A752B3003C9594 /* BooyahAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83363B018A752B3003C9594 /* BooyahAppDelegate.m */; };
+		B83363B418A752B3003C9594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83363B218A752B3003C9594 /* Main.storyboard */; };
+		B83363B718A752B3003C9594 /* BooyahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83363B618A752B3003C9594 /* BooyahViewController.m */; };
+		B83363B918A752B4003C9594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83363B818A752B4003C9594 /* Images.xcassets */; };
+		B83363C018A752B4003C9594 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363BF18A752B4003C9594 /* XCTest.framework */; };
+		B83363C118A752B4003C9594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363A018A752B3003C9594 /* Foundation.framework */; };
+		B83363C218A752B4003C9594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83363A418A752B3003C9594 /* UIKit.framework */; };
+		B83363CA18A752B4003C9594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83363C818A752B4003C9594 /* InfoPlist.strings */; };
+		B83363CC18A752B4003C9594 /* BooyahAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83363CB18A752B4003C9594 /* BooyahAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B83363C318A752B4003C9594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B833639518A752B3003C9594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B833639C18A752B3003C9594;
+			remoteInfo = BooyahApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B833639D18A752B3003C9594 /* BooyahApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooyahApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83363A018A752B3003C9594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B83363A218A752B3003C9594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B83363A418A752B3003C9594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B83363A818A752B3003C9594 /* BooyahApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooyahApp-Info.plist"; sourceTree = "<group>"; };
+		B83363AA18A752B3003C9594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B83363AC18A752B3003C9594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B83363AE18A752B3003C9594 /* BooyahApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BooyahApp-Prefix.pch"; sourceTree = "<group>"; };
+		B83363AF18A752B3003C9594 /* BooyahAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooyahAppDelegate.h; sourceTree = "<group>"; };
+		B83363B018A752B3003C9594 /* BooyahAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooyahAppDelegate.m; sourceTree = "<group>"; };
+		B83363B318A752B3003C9594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B83363B518A752B3003C9594 /* BooyahViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooyahViewController.h; sourceTree = "<group>"; };
+		B83363B618A752B3003C9594 /* BooyahViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooyahViewController.m; sourceTree = "<group>"; };
+		B83363B818A752B4003C9594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B83363BE18A752B4003C9594 /* BooyahAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooyahAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83363BF18A752B4003C9594 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B83363C718A752B4003C9594 /* BooyahAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooyahAppTests-Info.plist"; sourceTree = "<group>"; };
+		B83363C918A752B4003C9594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B83363CB18A752B4003C9594 /* BooyahAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooyahAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B833639A18A752B3003C9594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363A318A752B3003C9594 /* CoreGraphics.framework in Frameworks */,
+				B83363A518A752B3003C9594 /* UIKit.framework in Frameworks */,
+				B83363A118A752B3003C9594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83363BB18A752B4003C9594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363C018A752B4003C9594 /* XCTest.framework in Frameworks */,
+				B83363C218A752B4003C9594 /* UIKit.framework in Frameworks */,
+				B83363C118A752B4003C9594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B833639418A752B3003C9594 = {
+			isa = PBXGroup;
+			children = (
+				B83363A618A752B3003C9594 /* BooyahApp */,
+				B83363C518A752B4003C9594 /* BooyahAppTests */,
+				B833639F18A752B3003C9594 /* Frameworks */,
+				B833639E18A752B3003C9594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B833639E18A752B3003C9594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B833639D18A752B3003C9594 /* BooyahApp.app */,
+				B83363BE18A752B4003C9594 /* BooyahAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B833639F18A752B3003C9594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83363A018A752B3003C9594 /* Foundation.framework */,
+				B83363A218A752B3003C9594 /* CoreGraphics.framework */,
+				B83363A418A752B3003C9594 /* UIKit.framework */,
+				B83363BF18A752B4003C9594 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B83363A618A752B3003C9594 /* BooyahApp */ = {
+			isa = PBXGroup;
+			children = (
+				B83363AF18A752B3003C9594 /* BooyahAppDelegate.h */,
+				B83363B018A752B3003C9594 /* BooyahAppDelegate.m */,
+				B83363B218A752B3003C9594 /* Main.storyboard */,
+				B83363B518A752B3003C9594 /* BooyahViewController.h */,
+				B83363B618A752B3003C9594 /* BooyahViewController.m */,
+				B83363B818A752B4003C9594 /* Images.xcassets */,
+				B83363A718A752B3003C9594 /* Supporting Files */,
+			);
+			path = BooyahApp;
+			sourceTree = "<group>";
+		};
+		B83363A718A752B3003C9594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83363A818A752B3003C9594 /* BooyahApp-Info.plist */,
+				B83363A918A752B3003C9594 /* InfoPlist.strings */,
+				B83363AC18A752B3003C9594 /* main.m */,
+				B83363AE18A752B3003C9594 /* BooyahApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B83363C518A752B4003C9594 /* BooyahAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B83363CB18A752B4003C9594 /* BooyahAppTests.m */,
+				B83363C618A752B4003C9594 /* Supporting Files */,
+			);
+			path = BooyahAppTests;
+			sourceTree = "<group>";
+		};
+		B83363C618A752B4003C9594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83363C718A752B4003C9594 /* BooyahAppTests-Info.plist */,
+				B83363C818A752B4003C9594 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B833639C18A752B3003C9594 /* BooyahApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83363CF18A752B4003C9594 /* Build configuration list for PBXNativeTarget "BooyahApp" */;
+			buildPhases = (
+				B833639918A752B3003C9594 /* Sources */,
+				B833639A18A752B3003C9594 /* Frameworks */,
+				B833639B18A752B3003C9594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BooyahApp;
+			productName = BooyahApp;
+			productReference = B833639D18A752B3003C9594 /* BooyahApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B83363BD18A752B4003C9594 /* BooyahAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83363D218A752B4003C9594 /* Build configuration list for PBXNativeTarget "BooyahAppTests" */;
+			buildPhases = (
+				B83363BA18A752B4003C9594 /* Sources */,
+				B83363BB18A752B4003C9594 /* Frameworks */,
+				B83363BC18A752B4003C9594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83363C418A752B4003C9594 /* PBXTargetDependency */,
+			);
+			name = BooyahAppTests;
+			productName = BooyahAppTests;
+			productReference = B83363BE18A752B4003C9594 /* BooyahAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B833639518A752B3003C9594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Booyah;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = northwoods;
+				TargetAttributes = {
+					B83363BD18A752B4003C9594 = {
+						TestTargetID = B833639C18A752B3003C9594;
+					};
+				};
+			};
+			buildConfigurationList = B833639818A752B3003C9594 /* Build configuration list for PBXProject "BooyahApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B833639418A752B3003C9594;
+			productRefGroup = B833639E18A752B3003C9594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B833639C18A752B3003C9594 /* BooyahApp */,
+				B83363BD18A752B4003C9594 /* BooyahAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B833639B18A752B3003C9594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363B918A752B4003C9594 /* Images.xcassets in Resources */,
+				B83363AB18A752B3003C9594 /* InfoPlist.strings in Resources */,
+				B83363B418A752B3003C9594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83363BC18A752B4003C9594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363CA18A752B4003C9594 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B833639918A752B3003C9594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363B718A752B3003C9594 /* BooyahViewController.m in Sources */,
+				B83363B118A752B3003C9594 /* BooyahAppDelegate.m in Sources */,
+				B83363AD18A752B3003C9594 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83363BA18A752B4003C9594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83363CC18A752B4003C9594 /* BooyahAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B83363C418A752B4003C9594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B833639C18A752B3003C9594 /* BooyahApp */;
+			targetProxy = B83363C318A752B4003C9594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B83363A918A752B3003C9594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83363AA18A752B3003C9594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B83363B218A752B3003C9594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83363B318A752B3003C9594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B83363C818A752B4003C9594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83363C918A752B4003C9594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B83363CD18A752B4003C9594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B83363CE18A752B4003C9594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B83363D018A752B4003C9594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
+				INFOPLIST_FILE = "BooyahApp/BooyahApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B83363D118A752B4003C9594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
+				INFOPLIST_FILE = "BooyahApp/BooyahApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B83363D318A752B4003C9594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BooyahApp.app/BooyahApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BooyahAppTests/BooyahAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B83363D418A752B4003C9594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BooyahApp.app/BooyahApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
+				INFOPLIST_FILE = "BooyahAppTests/BooyahAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B833639818A752B3003C9594 /* Build configuration list for PBXProject "BooyahApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83363CD18A752B4003C9594 /* Debug */,
+				B83363CE18A752B4003C9594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83363CF18A752B4003C9594 /* Build configuration list for PBXNativeTarget "BooyahApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83363D018A752B4003C9594 /* Debug */,
+				B83363D118A752B4003C9594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B83363D218A752B4003C9594 /* Build configuration list for PBXNativeTarget "BooyahAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83363D318A752B4003C9594 /* Debug */,
+				B83363D418A752B4003C9594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B833639518A752B3003C9594 /* Project object */;
+}
