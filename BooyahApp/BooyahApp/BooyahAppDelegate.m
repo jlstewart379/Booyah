@@ -17,9 +17,6 @@
     
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
-    
-    NSLog(@"This was called");
-    
     return YES;
 }
 

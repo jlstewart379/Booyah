@@ -32,6 +32,6 @@ task :install do
   FileUtils.mkdir_p("#{top_dir}/Library")
   FileUtils.mkdir_p("#{top_dir}/tmp")
 
-  FileUtils.cp_r("./BooyahApp/build/Debug-iphonesimulator/BooyahApp.app", "#{top_dir}/BooyahApp.app")
+  FileUtils.cp_r(config["app_path"], "#{top_dir}/BooyahApp.app")
 
 end
