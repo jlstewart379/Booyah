@@ -15,7 +15,7 @@ To run:
 ````
     $rake install
 ````    
-5. Start your appium server. If you have appium install through npm you can do 
+5. Start your appium server. If you have appium installed through npm you can do 
 ````
     $rake appium
 ````    
