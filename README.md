@@ -1,3 +1,6 @@
+UPDATE: Feb. 10, 2013 -- Through updating to Appium v0.15, Mavericks and XCode 5's command line tools, the speed of this test dropped to 12 seconds. The tests run without using the --native-instruments-lib option, which was the biggest reason for the speed advantage. Thanks goes out to the Appium Google group for entertaining the topic. https://groups.google.com/forum/#!topic/appium-discuss/y6tLl3ERr-E
+
+---
 Would love some insight on why this extremely simple automated test using Appium takes about 38 seconds to run on the iOS simulator.
 
 To run:
