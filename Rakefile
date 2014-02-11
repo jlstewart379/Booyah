@@ -18,7 +18,7 @@ desc "Starting appium server for simulator"
 task :appium do
   config = YAML.load(ERB.new(File.read('.booyah.yml')).result)
   app_path = config["app_path"]
-  system('appium --app "' + app_path + '" --force-ipad --native-instruments-lib 1>&2')
+  system('appium --app "' + app_path + '"--force-ipad --log-timestamp 1>&2')
 end
 
 desc "Install Booyah to simulator"

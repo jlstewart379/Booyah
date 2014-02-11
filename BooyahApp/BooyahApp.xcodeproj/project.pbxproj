@@ -385,6 +385,7 @@
 				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
 				INFOPLIST_FILE = "BooyahApp/BooyahApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,6 +399,7 @@
 				GCC_PREFIX_HEADER = "BooyahApp/BooyahApp-Prefix.pch";
 				INFOPLIST_FILE = "BooyahApp/BooyahApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +465,7 @@
 				B83363D118A752B4003C9594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B83363D218A752B4003C9594 /* Build configuration list for PBXNativeTarget "BooyahAppTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +474,7 @@
 				B83363D418A752B4003C9594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

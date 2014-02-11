@@ -7,7 +7,7 @@ def appium
     @config = YAML.load(ERB.new(File.read('.booyah.yml')).result)
     app_path = @config["app_path"]
 
-    app = { device: :ios, app_path: app_path}
+    app = { device: 'iPad Simulator', app_path: app_path}
 
     @appium_driver = Appium::Driver.new(app)
     @appium_driver.start_driver
